@@ -1,0 +1,907 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: News 101\n"
+"POT-Creation-Date: 2013-06-19 15:22+0500\n"
+"PO-Revision-Date: 2013-06-19 15:22+0500\n"
+"Last-Translator: \n"
+"Language-Team: MyPassion\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:18 ../404.php:33
+msgid "Oops! 404"
+msgstr ""
+
+#: ../404.php:19 ../404.php:34
+msgid "Sorry, but you are looking for something that is not here."
+msgstr ""
+
+#: ../archive.php:22
+#, php-format
+msgid "All posts in %s"
+msgstr ""
+
+#: ../archive.php:24
+#, php-format
+msgid "All posts tagged %s"
+msgstr ""
+
+#: ../archive.php:26 ../archive.php:28 ../archive.php:30
+msgid "Archive for"
+msgstr ""
+
+#: ../archive.php:32
+msgid "All posts by"
+msgstr ""
+
+#: ../archive.php:34
+msgid "Blog Archives"
+msgstr ""
+
+#: ../category.php:74 ../page-blog.php:66 ../single.php:87
+#: ../framework/inc/custom_functions.php:36
+#: ../framework/inc/custom_functions.php:69 ../module/module-2.php:35
+#: ../module/module-3.php:38 ../module/module-4.php:32
+#: ../module/module-4.php:104
+msgid "No Comment"
+msgstr ""
+
+#: ../category.php:74 ../page-blog.php:66 ../single.php:87
+#: ../framework/inc/custom_functions.php:36
+#: ../framework/inc/custom_functions.php:69 ../module/module-2.php:35
+#: ../module/module-3.php:38 ../module/module-4.php:32
+#: ../module/module-4.php:104
+msgid "1 comment"
+msgstr ""
+
+#: ../category.php:74 ../comments.php:43 ../page-blog.php:66 ../single.php:87
+#: ../framework/inc/custom_functions.php:36
+#: ../framework/inc/custom_functions.php:69 ../module/module-2.php:35
+#: ../module/module-3.php:38 ../module/module-4.php:32
+#: ../module/module-4.php:104
+msgid "% Comments"
+msgstr ""
+
+#: ../category.php:74 ../page-blog.php:66 ../single.php:87
+#: ../framework/inc/custom_functions.php:36
+#: ../framework/inc/custom_functions.php:69 ../module/module-2.php:35
+#: ../module/module-3.php:38 ../module/module-4.php:32
+#: ../module/module-4.php:104
+msgid "Comments are off"
+msgstr ""
+
+#: ../comments.php:14
+#, php-format
+msgid "<span class=\"time\">%3$s</span>"
+msgstr ""
+
+#: ../comments.php:14
+msgid "g:i a"
+msgstr ""
+
+#: ../comments.php:14
+msgid "F j, Y"
+msgstr ""
+
+#: ../comments.php:18
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../comments.php:31
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../comments.php:34
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:43
+msgid "No Responses"
+msgstr ""
+
+#: ../comments.php:43
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:53
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:54
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:83
+msgid "Leave a reply"
+msgstr ""
+
+#: ../header.php:38 ../searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: ../page.php:28
+msgid "Pages:"
+msgstr ""
+
+#: ../search.php:19
+#, php-format
+msgid "Search results for &ldquo; %s &rdquo;"
+msgstr ""
+
+#: ../search.php:47
+msgid "No posts match the search terms"
+msgstr ""
+
+#: ../single.php:87
+msgid "By:"
+msgstr ""
+
+#: ../single.php:292
+msgid "Your Rating"
+msgstr ""
+
+#: ../single.php:293
+msgid "User Rating"
+msgstr ""
+
+#: ../single.php:296
+msgid "votes"
+msgstr ""
+
+#: ../single.php:326
+msgid "About the Author : "
+msgstr ""
+
+#: ../single.php:340
+msgid "Previous Post"
+msgstr ""
+
+#: ../single.php:341
+msgid "Next Post"
+msgstr ""
+
+#: ../single.php:351
+msgid "Related News"
+msgstr ""
+
+#: ../slider.php:125
+msgid "No posts attached to slider"
+msgstr ""
+
+#: ../admin/classes/class.options_machine.php:984
+msgid "Last Backup : "
+msgstr ""
+
+#: ../admin/classes/class.options_machine.php:1143
+msgid "Upload"
+msgstr ""
+
+#: ../admin/front-end/options.php:43 ../admin/front-end/options.php:67
+msgid "Save All Changes"
+msgstr ""
+
+#: ../admin/front-end/options.php:68
+msgid "Options Reset"
+msgstr ""
+
+#: ../admin/functions/functions.mediauploader.php:20
+msgid "Options"
+msgstr ""
+
+#: ../admin/functions/functions.mediauploader.php:210
+msgid "Gallery"
+msgstr ""
+
+#: ../admin/functions/functions.mediauploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:113
+msgid "Hello There"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:122
+msgid "Layout Skin"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:130
+msgid "Layout Style"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:131
+msgid "Boxed / Wide"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:139
+msgid "Background Pattern"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:140
+msgid "Select One of them"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:164
+msgid "Default Bakcground Image"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:165
+msgid "Upload image or put image url to input box"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:170
+msgid "Sticky Navigation Menu ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:171
+#: ../admin/functions/functions.options.php:404
+#: ../admin/functions/functions.options.php:560
+#: ../admin/functions/functions.options.php:580
+#: ../admin/functions/functions.options.php:586
+#: ../admin/functions/functions.options.php:592
+#: ../admin/functions/functions.options.php:598
+#: ../admin/functions/functions.options.php:604
+#: ../admin/functions/functions.options.php:610
+#: ../admin/functions/functions.options.php:616
+#: ../admin/functions/functions.options.php:622
+#: ../admin/functions/functions.options.php:628
+#: ../admin/functions/functions.options.php:634
+#: ../admin/functions/functions.options.php:649
+#: ../admin/functions/functions.options.php:655
+#: ../admin/functions/functions.options.php:661
+#: ../admin/functions/functions.options.php:667
+#: ../admin/functions/functions.options.php:673
+#: ../admin/functions/functions.options.php:679
+#: ../admin/functions/functions.options.php:691
+msgid "Switch ON"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:176
+msgid "Main Color"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:177
+msgid "default: #EA4748"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:182
+msgid "Buton Gradient Color - Top"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:183
+msgid "default: #ee6c6d"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:188
+msgid "Buton Gradient Color - Bottom"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:189
+msgid "default: #bc393a"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:203
+msgid "Homepage Style"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:204
+msgid "Select One of Them"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:214
+msgid "Homepage Layout Manager"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:215
+msgid ""
+"Organize how you want the layout to appear on the homepage. Drag and Drop "
+"moduls."
+msgstr ""
+
+#: ../admin/functions/functions.options.php:221
+msgid "Logo Uploader"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:222
+msgid "Image size should not be higher than \"200x60\"."
+msgstr ""
+
+#: ../admin/functions/functions.options.php:229
+msgid "Logo Margin Parameters"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:230
+msgid "Default value is \"35px 0px 20px 0px\". Please use like this."
+msgstr ""
+
+#: ../admin/functions/functions.options.php:236
+msgid "Favicon Uploader"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:251
+msgid "Modul-1 first column Title"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:257
+msgid "Modul-1 second column Title"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:263
+#: ../admin/functions/functions.options.php:372
+msgid "Number of Posts"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:264
+msgid "default value: 4"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:280
+msgid "Select Category For Module-2"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:281
+msgid ""
+"Posts created under choosen category will be displayed in module-2 on "
+"homepage"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:287
+msgid "Visible Number of Posts"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:288
+msgid "Default value: 3"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:296
+#: ../admin/functions/functions.options.php:335
+msgid "Max Number of Posts"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:297
+msgid "Default value: 6"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:305
+msgid "Sliding Number of Posts"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:306
+msgid "Default value: 1"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:314
+#: ../admin/functions/functions.options.php:344
+msgid "Carousel Direction"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:328
+msgid "Select Category For Module-3"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:329
+msgid ""
+"Posts created under choosen category will be displayed in module-3 on "
+"homepage"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:336
+#: ../admin/functions/functions.options.php:373
+msgid "Default value: 2"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:358
+msgid "Select Category For Module-4 First Column"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:359
+msgid ""
+"Posts created under choosen category will be displayed in module-4 first "
+"column"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:365
+msgid "Select Category For Module-4 Second Column"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:366
+msgid ""
+"Posts created under choosen category will be displayed in module-4 second "
+"column"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:388
+msgid "Slider Section ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:394
+msgid "Main Slider Posts Number"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:395
+msgid "default value: 5"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:403
+msgid "Main Slider Ribbons ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:409
+msgid "Main Slider Ribbon Name"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:415
+msgid "Secondary Slider Ribbon Name"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:429
+msgid "Body Font"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:436
+msgid "Navigation Font"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:442
+msgid "Navigation Font Transform"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:450
+msgid "Main Title Transform"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:466
+msgid "H1 - Headline Font"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:473
+msgid "H2 - Headline Font"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:480
+msgid "H3 - Headline Font"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:487
+msgid "H4 - Headline Font"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:494
+msgid "H5 - Headline Font"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:501
+msgid "H6 - Headline Font"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:515
+msgid "404 Error Page"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:516
+msgid "1-Left sidebar, 2-Right Sidebar, 3-Fullwidth"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:527
+msgid "Search Page"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:528
+#: ../admin/functions/functions.options.php:539
+#: ../admin/functions/functions.options.php:550
+msgid "1-Left sidebar, 2-Right Sidebar"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:538
+msgid "Archive Page"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:549
+msgid "Category Page"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:559
+msgid "Blog and Category Page Ribbons ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:565
+msgid "Category Page Ribbon Name"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:579
+msgid "All Share Buttons ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:585
+msgid "Facebook Share Button ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:591
+msgid "Twitter Share Button ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:597
+msgid "Pinterest Share Button ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:603
+msgid "Linkedin Share Button ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:609
+msgid "Reddit Share Button ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:615
+msgid "Digg Share Button ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:621
+msgid "Delicious Share Button ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:627
+msgid "Google Share Button ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:633
+msgid "E-mail Share Button ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:648
+msgid "Meta Line On/Off"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:654
+msgid "Post Views On/Off"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:660
+msgid "Author Info Box ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:666
+msgid "Tags Box ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:672
+msgid "Prev/Next Box"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:678
+msgid "Related Posts Box"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:690
+msgid "Review ON/OFF"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:696
+msgid "Review Content Text"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:703
+msgid "Review Header Text"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:709
+msgid "Review Final Score"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:715
+msgid "Review Final Score Text"
+msgstr ""
+
+#: ../admin/functions/functions.options.php:729
+msgid "Copyright Text"
+msgstr ""
+
+#: ../framework/inc/breadcrumbs.php:15
+msgid "Home"
+msgstr ""
+
+#: ../framework/inc/breadcrumbs.php:35
+msgid "Archive by category"
+msgstr ""
+
+#: ../framework/inc/breadcrumbs.php:38
+msgid "Search results for"
+msgstr ""
+
+#: ../framework/inc/breadcrumbs.php:96
+msgid "Posts tagged"
+msgstr ""
+
+#: ../framework/inc/breadcrumbs.php:101
+msgid "Articles posted by "
+msgstr ""
+
+#: ../framework/inc/breadcrumbs.php:104
+msgid "Error 404"
+msgstr ""
+
+#: ../framework/inc/breadcrumbs.php:109
+msgid "Page"
+msgstr ""
+
+#: ../framework/inc/js.php:66
+msgid "Go to..."
+msgstr ""
+
+#: ../framework/inc/mypassion-views.php:15
+#: ../framework/inc/mypassion-views.php:41
+msgid "Views"
+msgstr ""
+
+#: ../framework/inc/sharebox.php:7
+msgid "Share this story:"
+msgstr ""
+
+#: ../framework/inc/sharebox.php:11
+msgid "Facebook"
+msgstr ""
+
+#: ../framework/inc/sharebox.php:17
+msgid "Twitter"
+msgstr ""
+
+#: ../framework/inc/sharebox.php:23
+msgid "Pinterest"
+msgstr ""
+
+#: ../framework/inc/sharebox.php:29
+msgid "LinkedIn"
+msgstr ""
+
+#: ../framework/inc/sharebox.php:35
+msgid "Reddit"
+msgstr ""
+
+#: ../framework/inc/sharebox.php:41
+msgid "Digg"
+msgstr ""
+
+#: ../framework/inc/sharebox.php:47
+msgid "Delicious"
+msgstr ""
+
+#: ../framework/inc/sharebox.php:53
+msgid "Google+"
+msgstr ""
+
+#: ../framework/inc/sharebox.php:59
+msgid "E-Mail"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-ads.php:75
+#: ../framework/inc/widgets/widget-ads.php:173
+msgid "Ads Spot"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-bestreviews.php:93
+msgid "Number of reviews to show:"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-bestreviews.php:95
+msgid "(at most 15)"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-counter.php:37
+msgid "Fans"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-counter.php:44
+msgid "Followers"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-counter.php:51
+msgid "Subscribe via rss"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-counter.php:72
+msgid " Stay Connected"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-facebook.php:16
+msgid "Display Facebook Like Box"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-facebook.php:18
+msgid "MyPassion - Facebook"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-flickr.php:41
+msgid "A widget that show last flickr photo streams"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-flickr.php:47
+msgid "MyPassion - Flickr"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-flickr.php:100
+msgid "Flickr Widget"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-flickr.php:100
+msgid "52617155@N08"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-flickr.php:105
+#: ../framework/inc/widgets/widget-login.php:135
+msgid "Title:"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-flickr.php:110
+msgid "Flickr id"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-flickr.php:115
+msgid "Show Count"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-flickr.php:118
+msgid "Max is \"18\""
+msgstr ""
+
+#: ../framework/inc/widgets/widget-flickr.php:122
+msgid "What pictures to display"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-login.php:39
+msgid "A user login form widget."
+msgstr ""
+
+#: ../framework/inc/widgets/widget-login.php:45
+msgid "MyPassion - Login Form"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-login.php:72
+msgid "Logout"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-login.php:79
+msgid "User"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-login.php:82
+msgid "Password"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-login.php:87
+msgid "Remember me"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-login.php:96
+msgid "Register"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-login.php:98
+msgid "Recover password"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-login.php:130
+msgid "Login Form"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-tabs.php:18
+msgid "Recent"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-tabs.php:19
+msgid "Popular"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-tabs.php:20
+msgid "Comments"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-twitter.php:16
+msgid "Display your latest Tweets"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-twitter.php:18
+msgid "MyPassion - Twitter"
+msgstr ""
+
+#: ../framework/inc/widgets/widget-video.php:63
+msgid "Featured Video"
+msgstr ""
+
+#: ../framework/meta-box/inc/classes/meta-box.php:284
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: ../framework/meta-box/inc/classes/meta-box.php:342
+msgid "+"
+msgstr ""
+
+#: ../framework/meta-box/inc/classes/meta-box.php:364
+msgid "&#8211;"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/file.php:65
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/file.php:79
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/file.php:80
+msgctxt "file upload"
+msgid "Upload files"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/file.php:81
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/image-advanced.php:63
+msgctxt "image upload"
+msgid "Select or Upload Images"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/image.php:64
+msgid "Order saved"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/image.php:78
+#: ../framework/meta-box/inc/fields/thickbox-image.php:35
+msgctxt "image upload"
+msgid "Upload images"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/image.php:79
+msgctxt "image upload"
+msgid "+ Add new image"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/image.php:143
+msgctxt "image upload"
+msgid "Delete"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/image.php:144
+msgctxt "image upload"
+msgid "Edit"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/map.php:46
+msgid "Find Address"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/plupload-image.php:87
+msgctxt "image upload"
+msgid "Allowed Image Files"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/plupload-image.php:111
+msgctxt "image upload"
+msgid "Drop images here"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/plupload-image.php:112
+msgctxt "image upload"
+msgid "or"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/plupload-image.php:113
+msgctxt "image upload"
+msgid "Select Files"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/select-advanced.php:82
+msgid "Select a value"
+msgstr ""

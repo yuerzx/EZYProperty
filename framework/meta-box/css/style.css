@@ -1,0 +1,97 @@
+/* =Styles for 'normal' meta boxes
+-------------------------------------------------------------- */
+
+.rwmb-field {
+	margin: 10px 0;
+}
+.rwmb-label,
+.rwmb-input {
+	display: inline-block;
+	vertical-align: top;
+}
+.rwmb-label {
+	width: 24%;
+	float:left;
+}
+.rwmb-label.required {
+	font-weight: bold;
+}
+.rwmb-label.required > span
+{
+	color: #c00;
+}
+
+/* 75% if field has label, 100% if no label */
+.rwmb-input {
+	width: 100%;
+}
+.rwmb-label ~ .rwmb-input {
+	width: 75%;
+}
+.rwmb-input h4 {
+	margin: 0;
+}
+.rwmb-textarea {
+	resize: vertical;
+}
+.rwmb-input label{
+	margin-right:20px;
+	margin-top:3px;
+}
+
+/* Clone */
+.rwmb-clone {
+	min-height: 24px;
+}
+.rwmb-clone > input[type="radio"],
+.rwmb-clone > input[type="checkbox"] {
+	margin: 6px 0 0 4px;
+}
+.rwmb-button {
+	display: inline;
+	float: right;
+}
+
+/* Fix width to not overlap button for cloned sliders */
+.rwmb-clone .rwmb-slider {
+	width: 80%;
+	margin: 6px 0 0;
+}
+
+/* Fix buttons after sliders */
+.clearfix + .rwmb-button {
+	margin-top: -16px;
+}
+
+/* Fix empty block below admin footer (issue #24) */
+#ui-datepicker-div {
+	display: none;
+}
+
+/* jQuery validation */
+label.error {
+	padding-left: 3px;
+	color: red;
+}
+input.error,
+textarea.error,
+select.error {
+	border: #c00 solid 1px !important;
+	background: #ffebe8 !important;
+}
+
+/* =Styles for 'side' meta boxes
+-------------------------------------------------------------- */
+#side-sortables .rwmb-label,
+#side-sortables .rwmb-input {width: 100%;}
+
+.mypassion_get_bold {font-weight:bold; margin-right:20px; color:#999; position:absolute; margin:-30px 0 0 0}
+.mypassion_text_small textarea {width:100px;}
+.mypassion_add_another {width:70px; border: 1px solid #ddd; height:auto; float:left; text-align:center; font-size:12px; color:#AAA; margin:20px 20px 0 0; padding:10px; cursor:pointer; -moz-transition:.8s linear; -webkit-transition:.8s ease-out; transition:.8s linear;}
+.mypassion_add_another:hover {background:#FFF; color:#444; border: 1px solid #444;}
+.mypassion_criteria_wrapper {margin:20px 20px 0 0; float:left; height:100px;  width:270px; color:#999; padding:32px 20px 0px 20px; border: 2px dotted #DDD; }
+.mypassion_criteria_wrapper input { width:190px; padding: 6px;  color:#444; border: none;-moz-transition:.8s linear; -webkit-transition:.8s ease-out; transition:.8s linear; float:right;}
+.mypassion_criteria_wrapper input:focus {color:#111; }
+.mypassion_criteria_wrapper .rwmb-field {margin:10px 0px;}
+p#mypassion_c2_final_score_description em {cursor:pointer; color:#F00;}
+.mypassion_criteria_wrapper label{margin-top:7px; display:block;}
