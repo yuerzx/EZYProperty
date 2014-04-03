@@ -21,42 +21,16 @@ add_action('init', 'my_init_method'); // 加入功能, 前台使用 wp_enqueue_s
 		/* ---------------------------------------------------------------------------------- */
 		/* Register Scripts
 		/* ---------------------------------------------------------------------------------- */
-		wp_register_script('jquery', get_template_directory_uri() . '/framework/js/jquery.min.js', 'jquery', '1.8.1', false);		
-		/*wp_register_script('easing', get_template_directory_uri() . '/framework/js/easing.min.js', 'jquery', '1.0', TRUE);
-		wp_register_script('mobilemenu', get_template_directory_uri() . '/framework/js/mobilemenu.js', 'jquery', '1.0', TRUE);
-		//wp_register_script('modernizr', get_template_directory_uri() . '/framework/js/customM.js', 'jquery', '1.0');
-		wp_register_script('carouFredSel', get_template_directory_uri() . '/framework/js/carouFredSel.js', 'jquery', '1.0', TRUE);
-		//wp_register_script('sticky', get_template_directory_uri() . '/framework/js/sticky.js', 'jquery', '1.0', TRUE);
-		wp_register_script('superfish', get_template_directory_uri() . '/framework/js/superfish.js', 'jquery', '1.0', TRUE);
-		//wp_register_script('jquery-ui', get_template_directory_uri() . '/framework/js/ui.js', 'jquery', '1.0', TRUE);
-		wp_register_script('html5', get_template_directory_uri() . '/framework/js/html5.js', 'jquery', '1.0', TRUE);
-		//wp_register_script('flexslider', get_template_directory_uri() . '/framework/js/flexslider-min.js', 'jquery', '1.0', TRUE);
-		wp_register_script('scripts', get_template_directory_uri() . '/framework/js/scripts.js', 'jquery', '1.0', TRUE);
-		//wp_register_script('mypassion', get_template_directory_uri() . '/framework/js/mypassion.js', 'jquery', '1.0', TRUE);
-		wp_register_script('ajaxUpload', get_template_directory_uri() . '/framework/js/ajaxUpload.js', 'jquery', '1.0', TRUE);*/
-		wp_register_script('all', get_template_directory_uri() . '/framework/js/all.js', 'jquery', '1.0', TRUE);
+		wp_register_script('jquery', get_template_directory_uri() . '/framework/js/jquery.min.js', 'jquery', '1.8.1', false);
+		//wp_register_script('all', get_template_directory_uri() . '/framework/js/all.js', 'jquery', '1.0', TRUE);
+        wp_register_script('bootstrap','http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js','','3.1.1',TRUE);
 
 		
 		/* ---------------------------------------------------------------------------------- */
 		/* Enqueue Scripts 
 		/* ---------------------------------------------------------------------------------- */
 		wp_enqueue_script('jquery');
-		
-		/*wp_enqueue_script('easing');
-		//wp_enqueue_script('modernizr');
-		wp_enqueue_script('superfish');
-		wp_enqueue_script('carouFredSel');
-		wp_enqueue_script('mobilemenu');
-		//wp_enqueue_script('jquery-ui');
-		wp_enqueue_script('html5');
-		//wp_enqueue_script('flexslider');
-		//wp_enqueue_script('sticky');
-		wp_enqueue_script('scripts');
-		//wp_enqueue_script('mypassion');
-		wp_enqueue_script('ajaxUpload');*/
-		wp_enqueue_script('all');
-
-
+		wp_enqueue_script('bootstrap');
 		if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
 		
 		
@@ -71,6 +45,8 @@ add_action('init', 'my_init_method'); // 加入功能, 前台使用 wp_enqueue_s
 		/* Register Stylesheets 
 		/* ---------------------------------------------------------------------------------- */
 		wp_register_style('all', get_template_directory_uri().'/framework/css/all.css', array(), '1.0', 'all');
+        wp_register_script('bootstrap','http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css');
+        wp_register_script('bootstrap-theme','http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css');
 		/*wp_register_style('flexslider', get_template_directory_uri().'/framework/css/flexslider.css', array(), '1.0', 'all');
 		wp_register_style('fontello', get_template_directory_uri().'/framework/css/fontello/fontello.css', array(), '1.0', 'all');
 		wp_register_style('superfish', get_template_directory_uri().'/framework/css/superfish.css', array(), '1.0', 'all');
@@ -94,6 +70,8 @@ add_action('init', 'my_init_method'); // 加入功能, 前台使用 wp_enqueue_s
 		wp_enqueue_style('959');
 		wp_enqueue_style('767');
 		wp_enqueue_style('479');*/
+        wp_enqueue_style('bootstrap');
+        wp_enqueue_style('bootstrap-theme');
 		wp_enqueue_style('all');
 	}  
 	add_action( 'wp_enqueue_scripts', 'mypassion_styles', 1 ); 
