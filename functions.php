@@ -47,29 +47,7 @@ add_action('init', 'my_init_method'); // 加入功能, 前台使用 wp_enqueue_s
 		wp_register_style('all', get_template_directory_uri().'/framework/css/all.css', array(), '1.0', 'all');
         wp_register_script('bootstrap','http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css');
         wp_register_script('bootstrap-theme','http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css');
-		/*wp_register_style('flexslider', get_template_directory_uri().'/framework/css/flexslider.css', array(), '1.0', 'all');
-		wp_register_style('fontello', get_template_directory_uri().'/framework/css/fontello/fontello.css', array(), '1.0', 'all');
-		wp_register_style('superfish', get_template_directory_uri().'/framework/css/superfish.css', array(), '1.0', 'all');
-		//wp_register_style('ui', get_template_directory_uri().'/framework/css/ui.css', array(), '1.0', 'all');
-		wp_register_style('base', get_template_directory_uri().'/framework/css/base.css', array(), '1.0', 'all');
-		wp_register_style('960', get_template_directory_uri().'/framework/css/960.css', array(), '1.0', 'all');
-		wp_register_style('959', get_template_directory_uri().'/framework/css/devices/1000.css', array(), '1.0', 'only screen and (min-width: 768px) and (max-width: 1000px)');
-		wp_register_style('767', get_template_directory_uri().'/framework/css/devices/767.css', array(), '1.0', 'only screen and (min-width: 480px) and (max-width: 767px)');
-		wp_register_style('479', get_template_directory_uri().'/framework/css/devices/479.css', array(), '1.0', 'only screen and (min-width: 200px) and (max-width: 479px)');*/
-	
-		/* ---------------------------------------------------------------------------------- */
-		/* Enqueue Stylesheets 
-		/* ---------------------------------------------------------------------------------- */
-		//wp_enqueue_style('flexslider');
-		/*wp_enqueue_style('fontello');
-		wp_enqueue_style('superfish');
-		//wp_enqueue_style('ui');
-		wp_enqueue_style('base');
-		wp_enqueue_style('stylesheet', get_stylesheet_uri(), array(), '1', 'all' ); // Main Stylesheet
-		wp_enqueue_style('960');
-		wp_enqueue_style('959');
-		wp_enqueue_style('767');
-		wp_enqueue_style('479');*/
+
         wp_enqueue_style('bootstrap');
         wp_enqueue_style('bootstrap-theme');
 		wp_enqueue_style('all');
