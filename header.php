@@ -7,6 +7,7 @@
 <head>
 <?php global $admin_data; ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 <?php if($data['check_responsive'] == 1) { ?> <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> <?php } ?>
 
 <title><?php bloginfo('name'); ?> <?php wp_title(' - ', true, 'left'); ?></title>
@@ -28,7 +29,7 @@
 <body <?php body_class(); ?>>
 
 <!-- Body Wrapper -->
-<div class="body-wrapper">
+<div class="container">
 	<div class="controller">
     <div class="controller2">
     
