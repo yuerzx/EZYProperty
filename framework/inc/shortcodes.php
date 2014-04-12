@@ -901,17 +901,21 @@ function mypassion_contact_info( $atts, $content = null ){
   if($contact["photo_url"]==''){
     $contact["photo_url"]=get_bloginfo('template_url').'/framework/images/default.png';
   }
-	return '<h5 class="line"><span>'.$title.'</span></h5><span class="liner"></span>                            
-                            <div class="contact-info clearfix">
-                              <div class="contact_photo"><img src="'.$contact["photo_url"].'" /></div>
-                              <p class="contact_name">'.$contact["name"].'</p>
-                              <p class="phone">手机: '.$contact["phone"].'</p>
-                              <p class="email">Email: '.$contact["email"].'</p> 
-                            	<p class="webchat">webchat: '.$contact["webchat"].'</p>
-                            	<p class="weibo">Weibo: '.$contact["weibo"].'</p>
-                              <div class="description">'.$contact["description"].'</div>
-                              <div class="qrcode"><img src="'.$contact["qr_url"].'" /></div>
-                            </div>';
+	return '
+                <div class="contact-info card">
+                  <div class="contact_photo"><img src="'.$contact["photo_url"].'" /></div>
+                    <div>
+                    <ul class="table-view">
+                    <li class="table-view-cell">
+                        <h4>'.$contact["name"].'</h4></li>
+                    <li class="table-view-cell">
+                        <a href="tel:'.$contact["phone"].'" class="pull-left"><i class="phoneico"></i><p class=phone>'.$contact["phone"].'</p></a></li>
+                    <li class="table-view-cell">
+                        <i class="wechatico"></i>  '.$contact["webchat"].'</li>
+                    <li class="table-view-cell"><i class="weboico"></i>: '.$contact["weibo"].'</li>
+                    <li class="table-view-cell">'.$contact["description"].'</li></ul>
+                    </div>
+                </div>';
 }
 /*------------------------
  *添加指向wiki的链接短代码

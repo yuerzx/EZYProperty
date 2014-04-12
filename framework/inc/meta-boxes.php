@@ -98,12 +98,6 @@ $meta_boxes[] = array(
 			// Hidden field must have predefined value
 			'std'  => 'Hidden value',
 		),
-		// PASSWORD
-		array(
-			'name' => 'Password',
-			'id'   => "{$prefix}password",
-			'type' => 'password',
-		),
 		// TEXTAREA
 		array(
 			'name' => 'Textarea',
@@ -114,21 +108,8 @@ $meta_boxes[] = array(
 			'rows' => '3',
 		),
 	),
-	'validation' => array(
-		'rules' => array(
-			"{$prefix}password" => array(
-				'required'  => true,
-				'minlength' => 7,
-			),
-		),
-		// optional override of default jquery.validate messages
-		'messages' => array(
-			"{$prefix}password" => array(
-				'required'  => 'Password is required',
-				'minlength' => 'Password must be at least 7 characters',
-			),
-		)
-	)
+
+
 );
 
 // 2nd meta box
