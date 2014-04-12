@@ -65,7 +65,7 @@
                 </a>
             </li>
             <li class="table-view-cell">
-                <a class="push-right" href="#price">
+                <a class="push-right" href="#sales">
                     <strong>联系专员，立刻订购</strong>
                 </a>
             </li>
@@ -77,22 +77,7 @@
              endwhile; endif;?>
 
     </div>
-    <div id="card">
-        <div class="contact-info clearfix">
-            <div class="contact_photo"><center><img src="http://127.0.0.1/maifang/wp-content/uploads/2014/04/1.jpg" /></center></div>
-            <div>
-                <ul class="table-view"><li class="table-view-cell">
-                        <h4>'.$contact["name"].'</h4></li>
-                    <li class="table-view-cell">
-                        <a href="tel:054562123213" class="pull-left"><i class="phoneico"></i>0540123540</a></li>
-                    <li class="table-view-cell">
-                        <i class="wechatico"></i>  '.$contact["webchat"].'</li>
-                    <li class="table-view-cell"><i class="weboico"></i>: '.$contact["weibo"].'</ul>
-                <div class="description">'.$contact["description"].'</div>
-            </div>
 
-        </div>';
-    </div>
 
 </div>
 <footer>

@@ -2,6 +2,7 @@
     max-height: 44px;
     width: 45%;
     max-width: 133.3px;
+    padding-top: 6px;
 }
 
 .red_line{
@@ -9,7 +10,6 @@
 }
 
 div.content img{
-
     max-width: 90%;
     margin: 3.5%;
     height: inherit;
@@ -25,9 +25,9 @@ Business Card Design
 
 .contact-info{position:relative;box-shadow:0 0 3px 2px #EEE;width:auto;_width:100%;padding:20px;background:#fbfbfb}
 .contact-info P{line-height:1.8em}
-.contact-info a{width: 95%;}
-.contact-info .phone{
-    font-size: 20px;
+
+.contact-info .info{
+    font-size: 17px;
     margin: 2px;
     font-weight: bold;
     padding-left: 34px;
@@ -62,3 +62,5 @@ Business Card Design
 .description{clear:both}
 .qrcode{position:absolute;right:15px;top:15px}
 .qrcode img{width:expression(this.width>146 ? '146px':true);max-width:146px;height:auto}
+
+/* End of Business card */

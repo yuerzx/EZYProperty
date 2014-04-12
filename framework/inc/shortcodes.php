@@ -901,18 +901,18 @@ function mypassion_contact_info( $atts, $content = null ){
   if($contact["photo_url"]==''){
     $contact["photo_url"]=get_bloginfo('template_url').'/framework/images/default.png';
   }
-	return '
-                <div class="contact-info card">
+	return '<div class="contact-info card">
                   <div class="contact_photo"><img src="'.$contact["photo_url"].'" /></div>
                     <div>
                     <ul class="table-view">
                     <li class="table-view-cell">
                         <h4>'.$contact["name"].'</h4></li>
                     <li class="table-view-cell">
-                        <a href="tel:'.$contact["phone"].'" class="pull-left"><i class="phoneico"></i><p class=phone>'.$contact["phone"].'</p></a></li>
+                        <a href="tel:'.$contact["phone"].'" class="pull-left"><i class="phoneico"></i><p class=info>'.$contact["phone"].'</p></a></li>
                     <li class="table-view-cell">
-                        <i class="wechatico"></i>  '.$contact["webchat"].'</li>
-                    <li class="table-view-cell"><i class="weboico"></i>: '.$contact["weibo"].'</li>
+                        <a href="'.$contact["wechat_url"].'" target="_blank"><i class="wechatico"></i><p class=info>'.$contact["wechat"].'</p></a></li>
+                    <li class="table-view-cell">
+                        <a href="'.$contact["weibo_url"].'" target="_blank"><i class="weboico"></i><p class=info>'.$contact["weibo"].'</p></a></li>
                     <li class="table-view-cell">'.$contact["description"].'</li></ul>
                     </div>
                 </div>';
