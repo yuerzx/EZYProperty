@@ -8,8 +8,12 @@
 <?php global $admin_data; ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<?php if($data['check_responsive'] == 1) { ?> <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> <?php } ?>
+<!-- Sets initial viewport load and disables zooming  -->
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 
+<!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <title><?php bloginfo('name'); ?> <?php wp_title(' - ', true, 'left'); ?></title>
 
 
@@ -26,42 +30,32 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-
-<!-- Body Wrapper -->
-<div class="container">
-	<div class="controller">
-    <div class="controller2">
-    
-    <!-- Header -->
-        <header id="header">
-            <div class="container">
-                <div class="column">
-                    <div class="logo">
-                        <a href="<?php echo home_url(); ?>"><img src="<?php if($admin_data['logo']){echo esc_html($admin_data['logo']);} else{ echo get_template_directory_uri(); ?>/framework/img/logo.png<?php } ?>" alt="<?php bloginfo('description'); ?>" /></a>
-                    </div>
-                    
-                    <?php if($admin_data['header_search']){ ?>
-                    <div class="search">
-                        <form action="<?php echo home_url(); ?>/" method="get">
-                            <input type="text" value="<?php _e('Search', 'framework');?>..." onblur="if(this.value=='') this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue) this.value='';" class="ft" name="s"/>
-                            <input type="submit" value="" class="fs">
-                        </form>
-                    </div>
-                    <?php } ?>
-                    
-                    
-                    <?php $main = array(
-						'theme_location'  => 'main_menu',
-						'menu_class'      => 'sf-menu', 
-						'menu_id'         => 'menu-main',);
-					?>
-                    <!-- Nav -->
-                    <nav id="nav">
-                        <?php if(has_nav_menu('main_menu')){ wp_nav_menu( $main );} else{echo '<ul class="sf-menu"><li><a href="">No menu assigned!</a></li></ul>';}?>
-                    </nav>
-                    <!-- /Nav -->
-                </div>
-            </div>
-        </header>
-        <!-- /Header -->
+<body>
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav red_line">
+        <img src="<?php echo get_template_directory_uri().'/framework/img/logo.png'; ?>" class="pull-left logo">
+    </header>
+    <footer>
+        <nav class="bar bar-tab">
+            <a class="tab-item active" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">Home</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-person"></span>
+                <span class="tab-label">Sales</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-star-filled"></span>
+                <span class="tab-label">热门房产</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-search"></span>
+                <span class="tab-label">Search</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-gear"></span>
+                <span class="tab-label">Settings</span>
+            </a>
+        </nav>
+    </footer>

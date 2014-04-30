@@ -22,15 +22,13 @@ add_action('init', 'my_init_method'); // 加入功能, 前台使用 wp_enqueue_s
 		/* Register Scripts
 		/* ---------------------------------------------------------------------------------- */
 		wp_register_script('jquery', get_template_directory_uri() . '/framework/js/jquery.min.js', 'jquery', '1.8.1', false);
-		//wp_register_script('all', get_template_directory_uri() . '/framework/js/all.js', 'jquery', '1.0', TRUE);
-        wp_register_script('bootstrap','http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js','','3.1.1',TRUE);
+        wp_register_script('ratchet',get_template_directory_uri().'/framework/ratchet/js/ratchet.js','','2.1.1',TRUE);
 
-		
 		/* ---------------------------------------------------------------------------------- */
 		/* Enqueue Scripts 
 		/* ---------------------------------------------------------------------------------- */
 		wp_enqueue_script('jquery');
-		wp_enqueue_script('bootstrap');
+		wp_enqueue_script('ratchet');
 		if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
 		
 		
@@ -44,13 +42,13 @@ add_action('init', 'my_init_method'); // 加入功能, 前台使用 wp_enqueue_s
 		/* ---------------------------------------------------------------------------------- */
 		/* Register Stylesheets 
 		/* ---------------------------------------------------------------------------------- */
-		wp_register_style('all', get_template_directory_uri().'/framework/css/all.css', array(), '1.0', 'all');
-        wp_register_script('bootstrap','http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css');
-        wp_register_script('bootstrap-theme','http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css');
+		//wp_register_style('all', get_template_directory_uri().'/framework/css/all.css', array(), '1.0', 'all');
+        wp_register_style('rathchet',get_template_directory_uri().'/framework/ratchet/css/ratchet.min.css');
+        wp_register_style('detail-extend',get_template_directory_uri().'/framework/ratchet/css/extend.css');
 
-        wp_enqueue_style('bootstrap');
-        wp_enqueue_style('bootstrap-theme');
-		wp_enqueue_style('all');
+        wp_enqueue_style('rathchet');
+        wp_enqueue_style('detail-extend');
+		//wp_enqueue_style('all');
 	}  
 	add_action( 'wp_enqueue_scripts', 'mypassion_styles', 1 ); 
 
@@ -75,15 +73,15 @@ add_action('init', 'my_init_method'); // 加入功能, 前台使用 wp_enqueue_s
 /*  Inlcudes
 /* ------------------------------------------------------------------------ */
 	include_once('framework/inc/js.php'); // Enqueue Custom JavaScript
-	include_once('framework/inc/css.php'); // Enqueue Custom Stylesheet
+	//include_once('framework/inc/css.php'); // Enqueue Custom Stylesheet
 	include_once('framework/inc/shortcodes.php'); // Load Shortcodes
 	include_once('framework/inc/custom_functions.php'); // Custom functions
 	include_once('framework/inc/mypassion-views.php'); // Custom Views
 	include_once('framework/inc/sidebars.php'); // Sidebar Generator
 	include_once('framework/inc/googlefonts.php'); // Google Fonts
-	include_once('framework/inc/breadcrumbs.php'); // Load Breadcrumbs
+	//include_once('framework/inc/breadcrumbs.php'); // Load Breadcrumbs
 	include_once('framework/inc/mypassion_pagination.php'); // Custom Pagination
-	include_once('framework/inc/rating.php'); // Custom Pagination
+	//include_once('framework/inc/rating.php'); // Custom Pagination
 	
 	
 	
