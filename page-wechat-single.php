@@ -80,6 +80,8 @@
 
 
 </div>
+
+</body>
 <footer>
     <nav class="bar bar-tab">
         <a class="tab-item active" href="#">
@@ -104,5 +106,4 @@
         </a>
     </nav>
 </footer>
-</body>
 </html>

@@ -77,7 +77,7 @@ add_action('init', 'my_init_method'); // 加入功能, 前台使用 wp_enqueue_s
 	include_once('framework/inc/shortcodes.php'); // Load Shortcodes
 	include_once('framework/inc/custom_functions.php'); // Custom functions
 	include_once('framework/inc/mypassion-views.php'); // Custom Views
-	include_once('framework/inc/sidebars.php'); // Sidebar Generator
+	//include_once('framework/inc/sidebars.php'); // Sidebar Generator
 	include_once('framework/inc/googlefonts.php'); // Google Fonts
 	//include_once('framework/inc/breadcrumbs.php'); // Load Breadcrumbs
 	include_once('framework/inc/mypassion_pagination.php'); // Custom Pagination
