@@ -32,7 +32,5 @@
 
 <body>
     <!-- Make sure all your bars are the first things in your <body> -->
-    <header class="bar bar-nav red_line">
-        <img src="<?php echo get_template_directory_uri().'/framework/img/logo.png'; ?>" class="pull-left logo">
-    </header>
+
 

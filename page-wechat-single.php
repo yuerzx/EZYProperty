@@ -32,13 +32,13 @@
 <body>
 
 <!-- Make sure all your bars are the first things in your <body> -->
-<header class="bar bar-nav red_line">
-    <img src="<?php echo get_template_directory_uri().'/framework/img/logo.png'; ?>" class="pull-left logo">
 
-</header>
 
 <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
-<div class="content" style="margin-top: 48px">
+<div class="content">
+    <div class="red_line">
+        <img src="<?php echo get_template_directory_uri().'/framework/img/logo.png'; ?>" class="logo" style="margin: 0px 10px 5px 10px ; ">
+    </div>
     <div style="padding-bottom: 10px;">
         <center><img src="<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );echo $url; ?>"></center>
     </div>

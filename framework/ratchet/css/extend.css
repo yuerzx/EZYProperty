@@ -1,12 +1,15 @@
-.bar .logo{
-    max-height: 44px;
-    width: 45%;
+.content h4{
+    line-height: 1.6em;
+}
+
+.logo #logo{
+    max-height: 40px;
     max-width: 133.3px;
-    padding-top: 6px;
 }
 
 .red_line{
     border-bottom: 1px solid #EA4748;
+    width: 100%;
 }
 
 div.content img{

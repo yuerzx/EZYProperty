@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Wechat Member Page
+ * Template Name: Wechat Property Intro
  * Created by PhpStorm.
  * User: yuerzx
  * Date: 11/04/14
@@ -13,6 +13,9 @@
 
 <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
 <div class="content">
+    <div class="red_line">
+        <img src="<?php echo get_template_directory_uri().'/framework/img/logo.png'; ?>" class="logo" style="margin: 0px 10px 5px 10px ; ">
+    </div>
 
     <div style="padding-bottom: 10px;">
         <center><img src="<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );echo $url; ?>"></center>
@@ -31,25 +34,17 @@
 </body>
 <footer>
     <nav class="bar bar-tab">
-        <a class="tab-item active" href="#">
-            <span class="icon icon-home"></span>
-            <span class="tab-label">Home</span>
-        </a>
-        <a class="tab-item" href="#">
+        <a class="tab-item" href="http://www.maifang.com.au/projects/alphalynx/?page_id=12">
             <span class="icon icon-person"></span>
-            <span class="tab-label">Sales</span>
+            <span class="tab-label">销售团队</span>
         </a>
         <a class="tab-item" href="#">
             <span class="icon icon-star-filled"></span>
             <span class="tab-label">热门房产</span>
         </a>
-        <a class="tab-item" href="#">
-            <span class="icon icon-search"></span>
-            <span class="tab-label">Search</span>
-        </a>
-        <a class="tab-item" href="#">
-            <span class="icon icon-gear"></span>
-            <span class="tab-label">Settings</span>
+        <a class="tab-item" href="http://www.maifang.com.au/alpha/social/">
+            <span class="icon icon-info"></span>
+            <span class="tab-label">关注澳发</span>
         </a>
     </nav>
 </footer>
