@@ -21,17 +21,15 @@ add_action('init', 'my_init_method'); // 加入功能, 前台使用 wp_enqueue_s
 		/* ---------------------------------------------------------------------------------- */
 		/* Register Scripts
 		/* ---------------------------------------------------------------------------------- */
-		wp_register_script('jquery', get_template_directory_uri() . '/framework/js/jquery.min.js', 'jquery', '1.8.1', false);
-        wp_register_script('ratchet',get_template_directory_uri().'/framework/ratchet/js/ratchet.js','','2.1.1',TRUE);
+		wp_register_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js', 'jquery', '2.1.0', false);
+        wp_register_script('ratchet', get_template_directory_uri().'/framework/ratchet/js/ratchet.min.js','ratchet','2.1.1',TRUE);
 
 		/* ---------------------------------------------------------------------------------- */
 		/* Enqueue Scripts 
 		/* ---------------------------------------------------------------------------------- */
 		wp_enqueue_script('jquery');
 		wp_enqueue_script('ratchet');
-		if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
-		
-		
+
 	}
 	
 	add_action( 'wp_enqueue_scripts', 'mypassion_scripts' );  
@@ -58,14 +56,14 @@ add_action('init', 'my_init_method'); // 加入功能, 前台使用 wp_enqueue_s
 	add_action('init', 'style_and_script');
 		
 	function style_and_script(){ 
-		wp_register_script('metasortable', get_template_directory_uri().'/framework/meta-box/meta-sortable.js', 'jquery', '1.0');
-		wp_register_script('review', get_template_directory_uri().'/framework/meta-box/review.js', 'jquery', '1.0');
+		//wp_register_script('metasortable', get_template_directory_uri().'/framework/meta-box/meta-sortable.js', 'jquery', '1.0');
+		//wp_register_script('review', get_template_directory_uri().'/framework/meta-box/review.js', 'jquery', '1.0');
 		add_action('add_meta_boxes', 'register_meta_script');
 	}	
 	function register_meta_script(){
 		
-		wp_enqueue_script('review');	
-		wp_enqueue_script('metasortable');
+		//wp_enqueue_script('review');
+		//wp_enqueue_script('metasortable');
 	} 
 	
 	   

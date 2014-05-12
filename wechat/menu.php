@@ -13,7 +13,8 @@ $newmenu =  array(
 			array(
 				array('name'=>'中介系统', 
 					'sub_button'=> array(
-						array('type' =>'click', 'name'=>'公司简介','key'=>'Company_intro'),
+                        #TODO: need to check out the right way to do it!!!
+						array('type' =>'click', 'name'=>'Agent Login','key'=>'Company_intro'),
 						array('type' =>'click', 'name'=>'公司新闻', 'key'=>'Company_news'),
 						array('type' =>'click', 'name'=>'操作指令', 'key'=>'Guide'),
 						)),
