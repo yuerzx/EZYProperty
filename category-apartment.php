@@ -14,22 +14,20 @@ get_header();
 <div class="slider" id="mySlider">
     <div class="slide-group">
 <?php
-$the_query = new WP_Query("cat='apartment'&posts_per_page=3");
+$the_query = new WP_Query("cat='apartment'");
 while($the_query->have_posts()) : $the_query->the_post();
 ?>
 
-        <div class="slide">
-            <?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(),'large');?>
+    <div class="slide">
+        <a href="<?=get_permalink(); ?>">
+        <?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(),'large');?>
             <img src="<?=$large_image_url[0];?>">
-      <span class="slide-text">
-        <span class="icon icon-left-nav"></span>
-        Slide me
-      </span>
-        </div>
+    <span class="slide-text">
+    <span class="icon icon-left-nav"></span>
+    Slide me
+    </span></a>
+    </div>
 
-
-
-
-    <?php endwhile;wp_reset_postdata();?></div>
+<?php endwhile;wp_reset_postdata();?></div>
 </div></div>
 

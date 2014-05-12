@@ -68,6 +68,11 @@ Business Card Design
 
 /* End of Business card */
 
+.slide{
+    overflow: hidden;
+}
+
+
 .slider .slide-group .slide-text {
     position: absolute;
     top: 45%;
@@ -87,7 +92,7 @@ Business Card Design
     transition: all 0 linear;
 }
 .slider .slide img {
-    width: 100%;
-    height: 570px;
+    max-width: none;
     display: block;
+    height: 98%;
 }
