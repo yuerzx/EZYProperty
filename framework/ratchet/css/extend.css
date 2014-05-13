@@ -85,6 +85,7 @@ Business Card Design
     -webkit-transition: all 0 linear;
     -moz-transition: all 0 linear;
     transition: all 0 linear;
+    position: relative;
 }
 .slider .slide img {
     width: 100%;

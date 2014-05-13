@@ -18,14 +18,14 @@ $the_query = new WP_Query("cat='apartment'&posts_per_page=3");
 while($the_query->have_posts()) : $the_query->the_post();
 ?>
 
-        <div class="slide">
-            <?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(),'large');?>
-            <img src="<?=$large_image_url[0];?>">
-      <span class="slide-text">
+    <div class="slide">
+        <?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(),'large');?>
+        <img src="<?=$large_image_url[0];?>">
+    <span class="slide-text">
         <span class="icon icon-left-nav"></span>
         Slide me
-      </span>
-        </div>
+    </span>
+    </div>
 
 
 
